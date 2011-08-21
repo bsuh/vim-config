@@ -13,7 +13,9 @@ let g:Tlist_Use_Right_Window = 1
 let g:Tlist_WinWidth = 30
 
 " etc
-set guioptions-=mT        " no menu & toolbar
+set encoding=utf8
+set guioptions-=m         " no menu
+set guioptions-=T         " no toolbar
 set guicursor=a:blinkon0  " no cursor blink
 set gfn=Consolas:h11      " Consolas font
 set nowrap                " no wordwrap
@@ -27,3 +29,12 @@ set cursorline            " hilight current line
 set backspace=2           " allow backspace to delete previously inserted stuff
 set ruler                 " show line and column number
 set incsearch             " show search results incrementally
+
+" keymappings
+let mapleader = ","
+let g:mapleader = ","
+noremap <Space> :
+noremap ; `
+noremap : ;
+noremap ` ,
+nmap <leader>w <Space>w!<cr>
