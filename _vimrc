@@ -25,7 +25,6 @@ set tabstop=4             "
 set expandtab             " 
 set number                " show line numbers
 set showmode              " show --VISUAL-- or --INSERT-- or etc when in those modes
-set cursorline            " hilight current line
 set backspace=2           " allow backspace to delete previously inserted stuff
 set ruler                 " show line and column number
 set incsearch             " show search results incrementally
